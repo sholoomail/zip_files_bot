@@ -1,0 +1,29 @@
+{
+  "name": "Zect",
+  "description": "Zect, a telegram userbot with MongoDB database",
+  "env": {
+    "APP_ID": {
+      "description": "Get this value from my.telegram.org.",
+      "required": true
+    },
+    "APP_HASH": {
+      "description": "Get this value from my.telegram.org.",
+      "required": true
+    },
+    "SESSION_NAME": {
+      "description": "Any name you like.",
+      "required": true
+      "value": "zipfile_bot"
+    },
+    "BOT_TOKEN": {
+      "description": "Get this value from @Botfather",
+      "required": true
+    }
+  },
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "free"
+    }
+  }
+}
