@@ -12,3 +12,6 @@ To be able to run the code you need to rename `config.sample.ini` to `config.ini
  - The bot uses https://github.com/ukinti/garnet/ as the FSM. The storage type can be changed there.
  - The bot saves files in a temp directory.
  - The bot does not support password protection yet.
+
+# Deploy
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Lucy-Robot/zip_files_bot)
