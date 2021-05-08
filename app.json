@@ -12,7 +12,7 @@
     },
     "SESSION_NAME": {
       "description": "Any name you like.",
-      "required": true
+      "required": true,
       "value": "zipfile_bot"
     },
     "BOT_TOKEN": {
