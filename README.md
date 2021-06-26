@@ -14,4 +14,4 @@ To be able to run the code you need to rename `config.sample.ini` to `config.ini
  - The bot does not support password protection yet.
 
 # Deploy
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Lucy-Robot/zip_files_bot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/sholoomail/zip_files_bot)
