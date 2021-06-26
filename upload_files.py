@@ -34,7 +34,7 @@ async def only_pm(handler, event):
 
 @router.message(text.commands("start", prefixes="/") & (State.exact(States.state_waiting) | State.entry))
 async def response(event):
-    await event.reply("Hi! Send me a lot of images to zip.\nDo /done to finally zip them and send them back,")
+    await event.reply("سلام.\nبرای استفاده از این ابتدا دستور /start را تایپ کرده و سپس فایل های مورد نظرتان را به این بات فوروارد کنید.\nدر پایان دستور /done را تایپ نمایید تا همه فایل های فوروارد شئه را به یک فایل زیپ تبدیل شوند. ")
     fsm = ctx.CageCtx.get()  # get UserCage of current user
 
     await fsm.set_state(States.state_uploading)
