@@ -1,0 +1,19 @@
+services:
+  - type: worker
+    name: zip_files_bot
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python upload_files.py
+    repo: https://github.com/sholoomail/zip_files_bot.git
+    branch: main
+    envVars:
+      - key: BOT_TOKEN 
+        sync: false
+      - key: API_ID 
+        sync: false
+      - key: API_HASH 
+        sync: false
+      - key: SESSION_NAME 
+        value: zip_files_bot
+      - key: DOWNLOAD_LOCATION 
+        value: ./DOWNLOADS
