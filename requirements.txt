@@ -1,1 +1,1 @@
-telegram-garnet==0.5.2
+telegram-garnet
