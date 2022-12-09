@@ -1,5 +1,5 @@
 services:
-  - type: worker
+  - type: web
     name: zip_files_bot
     env: python
     buildCommand: pip install -r requirements.txt
