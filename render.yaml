@@ -9,9 +9,9 @@ services:
     envVars:
       - key: BOT_TOKEN 
         sync: false
-      - key: API_ID 
+      - key: APP_ID 
         sync: false
-      - key: API_HASH 
+      - key: APP_HASH 
         sync: false
       - key: SESSION_NAME 
         value: zip_files_bot
