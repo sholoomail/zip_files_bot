@@ -13,5 +13,5 @@ services:
         sync: false
       - key: APP_HASH 
         sync: false
-      - key: SESSION_NAME 
+      - key: session_dsn 
         value: zip_files_bot
